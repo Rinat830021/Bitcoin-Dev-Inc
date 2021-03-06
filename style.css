@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+    body {
+    background-color: rgb(236, 228, 218);
+    }
+    #block-body {
+      width: 100%;
+      margin: 0px auto;
+      margin-bottom: 20px;
+      height: auto;
+    }
+    header {
+        width: 100%;
+        height: 100px;
+        background-color: rgb(19, 33, 161);
+    }
+     #block-content {
+        width: 0px;
+        height: auto;
+        min-height: 100px;
+    }
+    .logo {
+        width: 160px;
+        float: left;
+        height: 100px;
+        margin-right: 50px;
+        background-image: url('img/logo.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .logo a {
+        display: block;
+        margin-left: 15 px;
+        margin-top: 10 px;
+        font-family: sans-serif;
+        font-size: 28px;
+        columns: #b2aeb2;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .use {
+        color:#aa064b;
+    }
+    .web {
+        color: #429595;
+    }
+    .logo p {
+        margin-left: 20px;
+        margin-top: 2px;
+        margin-bottom: 5px;
+        font-family: sans-serif;
+        font-size: 13px;
+        color:white;
+    }
+    .top-menu ul li {
+        list-style: none;
+        float: left;
+        text-align: center;
+    }
+    .top-menu ul li a {
+        display:block;
+        width: 200px;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-size: 17px;
+        color: white;
+        margin-top: 25px;
+        cursor: pointer;
+    }
+    .top-menu ul li:hover { 
+        transition: all 0.5 ease;
+        background: #00ADE4;
+        -o-transition: all 0.5 ease;
+        -webkit-transition: all 0.5 ease;
+        -moz-transition: all 0.5 ease;
+        -ms-transition: all 0.5 ease;
+    }
+body  {
+    margin: 0%;
+}
+.wrapper {
+display: grid;
+grid-template-columns: 4fr 1fr;
+}
+.trades-container {
+    overflow-y: auto;
+
+}
+.trades-container__header, .trade {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    text-align: center;
+}
+.sell {
+    background-color: rgba(255, 144, 150, 0.5);
+}
+.buy {
+    background-color: rgba(57, 186, 50, 0.5);
+}
+.trades-container__list{
+    overflow: hidden;
+    height: 60vh;
+}
+.page-footer {
+    content: "footer";
+
+    height: 100px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0,0,153);
+  }
+  .top-menu ul li a:hover {
+    display:block;
+    width: 200px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 17px;
+    color: white;
+    margin-top: 25px;
+    cursor: pointer;
+  }
